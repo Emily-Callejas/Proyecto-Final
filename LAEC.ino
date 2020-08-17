@@ -10,7 +10,7 @@ void setup (){
     pinMode(7, INPUT);
 }
 
-VOID LOOP(){
+void loop(){
     if(digitalRead(7)){
         lcd.setCursor(0,0);
         lcd.print("Detecto algo!!!!");
