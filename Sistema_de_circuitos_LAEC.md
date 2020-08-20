@@ -5,7 +5,8 @@
 - Módulo LCD
 - Potenciometro (250 kiloohmios)
 - Sensor PIR
-- Pulsador
+- 2 Pulsadores
+- LED
 - Resistencia (220 Ohms)
 - Placa de pruevas de tamaño pequeño
 - Cables de conexión
@@ -24,6 +25,8 @@ Proceguimos con el conectado del Sensor PIR el cual cuenta con tres pines: el pr
 
 El Pulsador solo cuenta con dos Pines, donde la terminal 1a va al pin 6 de Arduino y la terminal 2a tiene que estar conectado a tierra.
 
-Por último, conectamos el zumbador, que en este caso es un Buzzer Pasivo, que cuenta con dos pines, el negativo se lo conecta a Tierra y el pin positivo, va directamente a un pin (PWM-) de arduino.
+Conectamos el zumbador, que en este caso es un Buzzer Pasivo, que cuenta con dos pines, el negativo se lo conecta a Tierra y el pin positivo, va directamente a un pin (PWM-) de arduino.
+
+Se añade otro pulsador, donde la terminal 1a, se conecta al pin de RESET de la placla arduino; y la terminal 2a a tierra. Finalmente se añade un LED, donde el cátodo va conectado a tierra, y el ánodo a un pin de la placa, en este caso el numero 8.
 
 > De esta forma es como se realizó el conectado de todos los componentes paso a paso.
