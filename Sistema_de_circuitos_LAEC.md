@@ -33,3 +33,4 @@ Se añade otro pulsador, donde la terminal 1a, se conecta al pin de RESET de la 
 
 > De esta forma es como se realizó el conectado de todos los componentes paso a paso. A continuación mostramos una imagen del diagrama de conexión de previamente descrito:
 
+![Diagrama de conexión](https://1.bp.blogspot.com/-HlYCAMisxto/X0CR_Ga1aeI/AAAAAAAAAPQ/R7v6UtTaB945iJSYJmY6U9chMgI5OIk-wCNcBGAsYHQ/s640/IMG-20200820-WA0015.jpg "Sistema LAEC reference")
